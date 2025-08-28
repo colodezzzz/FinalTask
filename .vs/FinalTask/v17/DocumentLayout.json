@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "E:\\VS projects\\FinalTask\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|e:\\vs projects\\finaltask\\finaltask\\staff\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\staff\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|e:\\vs projects\\finaltask\\finaltask\\staff\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\staff\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|e:\\vs projects\\finaltask\\finaltask\\utils\\cardvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|E:\\VS projects\\FinalTask\\finaltask\\utils\\cardvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\utils\\cardvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Dice.cs",
+              "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\Staff\\Dice.cs",
+              "RelativeDocumentMoniker": "FinalTask\\Staff\\Dice.cs",
+              "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\Staff\\Dice.cs",
+              "RelativeToolTip": "FinalTask\\Staff\\Dice.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T09:34:31.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Card.cs",
               "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\Staff\\Card.cs",
               "RelativeDocumentMoniker": "FinalTask\\Staff\\Card.cs",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CardValue.cs",
               "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\Utils\\CardValue.cs",
               "RelativeDocumentMoniker": "FinalTask\\Utils\\CardValue.cs",
@@ -55,12 +72,11 @@
               "RelativeToolTip": "FinalTask\\Utils\\CardValue.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T09:26:40.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T09:26:40.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CardType.cs",
               "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\Utils\\CardType.cs",
               "RelativeDocumentMoniker": "FinalTask\\Utils\\CardType.cs",
@@ -68,12 +84,11 @@
               "RelativeToolTip": "FinalTask\\Utils\\CardType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T09:24:31.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T09:24:31.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\Program.cs",
               "RelativeDocumentMoniker": "FinalTask\\Program.cs",
@@ -81,8 +96,7 @@
               "RelativeToolTip": "FinalTask\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T07:39:01.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T07:39:01.9Z"
             }
           ]
         }

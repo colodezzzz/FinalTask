@@ -46,6 +46,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Staff\Card.cs" />
+    <Compile Include="Staff\Dice.cs" />
     <Compile Include="Utils\CardType.cs" />
     <Compile Include="Utils\CardValue.cs" />
   </ItemGroup>

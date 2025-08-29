@@ -1,0 +1,8 @@
+E:\VS projects\FinalTask\FinalTask\obj\Debug\FinalTask.csproj.AssemblyReference.cache
+E:\VS projects\FinalTask\FinalTask\obj\Debug\FinalTask.csproj.CoreCompileInputs.cache
+E:\VS projects\FinalTask\FinalTask\bin\Debug\FinalTask.exe.config
+E:\VS projects\FinalTask\FinalTask\bin\Debug\FinalTask.exe
+E:\VS projects\FinalTask\FinalTask\bin\Debug\FinalTask.pdb
+E:\VS projects\FinalTask\FinalTask\obj\Debug\FinalTask.exe
+E:\VS projects\FinalTask\FinalTask\obj\Debug\FinalTask.pdb
+E:\VS projects\FinalTask\FinalTask\obj\Debug\FinalTask.exe.config

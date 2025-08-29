@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "E:\\VS projects\\FinalTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|e:\\vs projects\\finaltask\\finaltask\\staff\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\staff\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|e:\\vs projects\\finaltask\\finaltask\\utils\\cardvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\utils\\cardvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|E:\\VS projects\\FinalTask\\finaltask\\utils\\cardtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\utils\\cardtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|E:\\VS projects\\FinalTask\\finaltask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|e:\\vs projects\\finaltask\\finaltask\\games\\crapsgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\games\\crapsgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|e:\\vs projects\\finaltask\\finaltask\\games\\blackjackgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\games\\blackjackgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|E:\\VS projects\\FinalTask\\finaltask\\games\\casinogamebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\games\\casinogamebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|e:\\vs projects\\finaltask\\finaltask\\staff\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\staff\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,60 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Card.cs",
-              "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\Staff\\Card.cs",
-              "RelativeDocumentMoniker": "FinalTask\\Staff\\Card.cs",
-              "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\Staff\\Card.cs",
-              "RelativeToolTip": "FinalTask\\Staff\\Card.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Dice.cs",
+              "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\Staff\\Dice.cs",
+              "RelativeDocumentMoniker": "FinalTask\\Staff\\Dice.cs",
+              "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\Staff\\Dice.cs",
+              "RelativeToolTip": "FinalTask\\Staff\\Dice.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T09:32:06.48Z",
+              "WhenOpened": "2025-08-29T13:07:42.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CardValue.cs",
-              "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\Utils\\CardValue.cs",
-              "RelativeDocumentMoniker": "FinalTask\\Utils\\CardValue.cs",
-              "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\Utils\\CardValue.cs",
-              "RelativeToolTip": "FinalTask\\Utils\\CardValue.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "CrapsGame.cs",
+              "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\Games\\CrapsGame.cs",
+              "RelativeDocumentMoniker": "FinalTask\\Games\\CrapsGame.cs",
+              "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\Games\\CrapsGame.cs",
+              "RelativeToolTip": "FinalTask\\Games\\CrapsGame.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T09:26:40.541Z",
+              "WhenOpened": "2025-08-29T12:58:33.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CardType.cs",
-              "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\Utils\\CardType.cs",
-              "RelativeDocumentMoniker": "FinalTask\\Utils\\CardType.cs",
-              "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\Utils\\CardType.cs",
-              "RelativeToolTip": "FinalTask\\Utils\\CardType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Title": "BlackjackGame.cs",
+              "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\Games\\BlackjackGame.cs",
+              "RelativeDocumentMoniker": "FinalTask\\Games\\BlackjackGame.cs",
+              "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\Games\\BlackjackGame.cs",
+              "RelativeToolTip": "FinalTask\\Games\\BlackjackGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T09:24:31.818Z",
+              "WhenOpened": "2025-08-28T10:05:13.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CasinoGameBase.cs",
+              "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\Games\\CasinoGameBase.cs",
+              "RelativeDocumentMoniker": "FinalTask\\Games\\CasinoGameBase.cs",
+              "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\Games\\CasinoGameBase.cs",
+              "RelativeToolTip": "FinalTask\\Games\\CasinoGameBase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T10:00:14.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\Program.cs",
               "RelativeDocumentMoniker": "FinalTask\\Program.cs",
-              "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\Program.cs",
-              "RelativeToolTip": "FinalTask\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\Program.cs*",
+              "RelativeToolTip": "FinalTask\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T07:39:01.9Z",
               "EditorCaption": ""

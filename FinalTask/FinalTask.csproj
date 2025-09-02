@@ -51,6 +51,8 @@
     <Compile Include="Games\CrapsGame.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SaveLoadService\FileSystemSaveLoadService.cs" />
+    <Compile Include="SaveLoadService\ISaveLoadService.cs" />
     <Compile Include="Staff\Card.cs" />
     <Compile Include="Staff\Dice.cs" />
     <Compile Include="Utils\CardType.cs" />

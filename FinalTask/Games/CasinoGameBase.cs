@@ -17,8 +17,6 @@ namespace FinalTask.Games
 
         protected abstract void FactoryMethod();
 
-        protected abstract void ShowGameResults();
-
         protected void OnWinInvoke()
         {
             OnWin?.Invoke();

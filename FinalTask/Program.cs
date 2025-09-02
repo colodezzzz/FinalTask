@@ -1,4 +1,5 @@
 ﻿using FinalTask.Games;
+using System;
 
 namespace FinalTask
 {
@@ -6,9 +7,10 @@ namespace FinalTask
     {
         static void Main(string[] args)
         {
-            //CasinoGameBase game = new CrapsGame(5, 1, 6);
-            CasinoGameBase game = new BlackjackGame(5);
-            game.PlayGame();
+            int a = int.MaxValue;
+            int b = a * 2;
+
+            Console.WriteLine(b);
         }
     }
 }

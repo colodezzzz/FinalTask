@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Casino\Casino.cs" />
+    <Compile Include="Casino\IGame.cs" />
+    <Compile Include="Casino\PlayerProfile.cs" />
     <Compile Include="Games\BlackjackGame.cs" />
     <Compile Include="Games\CasinoGameBase.cs" />
     <Compile Include="Games\CrapsGame.cs" />

@@ -13,7 +13,7 @@ namespace FinalTask.Games
         private List<Card> _cards;
         private Queue<Card> _deck;
 
-        public BlackjackGame(int cardsAmount) 
+        public BlackjackGame() 
         {
             FactoryMethod();
         }
@@ -92,11 +92,6 @@ namespace FinalTask.Games
                     _cards.Add(card);
                 }
             }
-        }
-
-        protected override void ShowGameResults()
-        {
-            throw new NotImplementedException();
         }
 
         private void Pause()

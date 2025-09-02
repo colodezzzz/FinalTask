@@ -61,11 +61,6 @@ namespace FinalTask.Games
             _dice = new Dice(_minDiceValue, _maxDiceValue);
         }
 
-        protected override void ShowGameResults()
-        {
-            throw new System.NotImplementedException();
-        }
-
         private void ShowDicesInfo(string owner, List<int> dices, int sum = 0)
         {
             Console.WriteLine($"---------- {owner} Dices ----------\n");

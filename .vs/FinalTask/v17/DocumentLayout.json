@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\saveloadservice\\filesystemsaveloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|E:\\VS projects\\FinalTask\\finaltask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|E:\\VS projects\\FinalTask\\finaltask\\saveloadservice\\isaveloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\saveloadservice\\isaveloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|e:\\vs projects\\finaltask\\finaltask\\saveloadservice\\isaveloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\saveloadservice\\isaveloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|E:\\VS projects\\FinalTask\\finaltask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +26,17 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ISaveLoadService.cs",
               "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\SaveLoadService\\ISaveLoadService.cs",
               "RelativeDocumentMoniker": "FinalTask\\SaveLoadService\\ISaveLoadService.cs",
               "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\SaveLoadService\\ISaveLoadService.cs",
               "RelativeToolTip": "FinalTask\\SaveLoadService\\ISaveLoadService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T08:49:49.206Z",
               "EditorCaption": ""
@@ -49,14 +49,14 @@
               "RelativeDocumentMoniker": "FinalTask\\SaveLoadService\\FileSystemSaveLoadService.cs",
               "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\SaveLoadService\\FileSystemSaveLoadService.cs",
               "RelativeToolTip": "FinalTask\\SaveLoadService\\FileSystemSaveLoadService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T07:54:57.847Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\Program.cs",
               "RelativeDocumentMoniker": "FinalTask\\Program.cs",
@@ -64,8 +64,7 @@
               "RelativeToolTip": "FinalTask\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T07:39:01.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T07:39:01.9Z"
             }
           ]
         }

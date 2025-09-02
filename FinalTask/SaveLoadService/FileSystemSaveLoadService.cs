@@ -3,7 +3,7 @@ using System.IO;
 
 namespace FinalTask.SaveLoadService
 {
-    class FileSystemSaveLoadService : ISaveLoadService
+    class FileSystemSaveLoadService : ISaveLoadService<string>
     {
         private const string DEFAULT_FILES_EXTENSION = ".txt";
 
@@ -14,7 +14,7 @@ namespace FinalTask.SaveLoadService
             _dataPath = path;
         }
 
-        public T LoadData<T>(string id)
+        public string LoadData(string id)
         {
             string path = Path.Combine(_dataPath, GetFileName(id));
 
@@ -23,19 +23,18 @@ namespace FinalTask.SaveLoadService
                 using (StreamReader readStream = File.OpenText(path))
                 {
                     string result = readStream.ReadToEnd();
-
-                    
+                    return result;
                 }
             }
             else
             {
-                Console.WriteLine("Can't load data! File doesn't exists!");
+                Console.WriteLine("Can't load data! File doesn't exist!");
             }
 
             return default;
         }
 
-        public void SaveData<T>(T data, string id)
+        public void SaveData(string data, string id)
         {
             string path = Path.Combine(_dataPath, GetFileName(id));
 
@@ -46,7 +45,7 @@ namespace FinalTask.SaveLoadService
 
             using (StreamWriter writeStream = File.CreateText(path))
             {
-                writeStream.WriteLine(data.ToString());
+                writeStream.WriteLine(data);
             }
         }
 

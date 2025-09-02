@@ -22,24 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FileSystemSaveLoadService.cs",
-              "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\SaveLoadService\\FileSystemSaveLoadService.cs",
-              "RelativeDocumentMoniker": "FinalTask\\SaveLoadService\\FileSystemSaveLoadService.cs",
-              "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\SaveLoadService\\FileSystemSaveLoadService.cs",
-              "RelativeToolTip": "FinalTask\\SaveLoadService\\FileSystemSaveLoadService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T07:54:57.847Z",
-              "EditorCaption": ""
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
@@ -49,9 +36,22 @@
               "RelativeDocumentMoniker": "FinalTask\\SaveLoadService\\ISaveLoadService.cs",
               "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\SaveLoadService\\ISaveLoadService.cs",
               "RelativeToolTip": "FinalTask\\SaveLoadService\\ISaveLoadService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T07:52:08.493Z"
+              "WhenOpened": "2025-08-28T08:49:49.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileSystemSaveLoadService.cs",
+              "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\SaveLoadService\\FileSystemSaveLoadService.cs",
+              "RelativeDocumentMoniker": "FinalTask\\SaveLoadService\\FileSystemSaveLoadService.cs",
+              "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\SaveLoadService\\FileSystemSaveLoadService.cs",
+              "RelativeToolTip": "FinalTask\\SaveLoadService\\FileSystemSaveLoadService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T07:54:57.847Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -61,10 +61,9 @@
               "RelativeDocumentMoniker": "FinalTask\\Program.cs",
               "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\Program.cs",
               "RelativeToolTip": "FinalTask\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T07:39:01.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T07:39:01.9Z"
             }
           ]
         }

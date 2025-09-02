@@ -1,11 +1,19 @@
 ﻿using FinalTask.Games;
+using FinalTask.SaveLoadService;
 using System;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 
 namespace FinalTask.Main
 {
     public class Casino : IGame
     {
+        private const string PLAYER_NAME_ID = "Player Name";
+        private const string PLAYER_BANK_ID = "Player Bank";
+        private const int DEFAULT_BANK = 100;
+
+        private FileSystemSaveLoadService _service;
+
         private CasinoGameBase _blackJackGame;
         private CasinoGameBase _crapsGame;
 
@@ -15,6 +23,8 @@ namespace FinalTask.Main
 
         public Casino()
         {
+            _service = new FileSystemSaveLoadService(@"C:\Casino");
+
             _blackJackGame = new BlackjackGame();
             _crapsGame = new CrapsGame(3, 1, 6);
         }
@@ -23,8 +33,11 @@ namespace FinalTask.Main
         {
             Console.WriteLine("Welcome to our casino!");
 
-            // ---------- Load or create player profile ----------
-            _playerProfile = new PlayerProfile("Player", 100);
+            if (TryLoadProfile(out _playerProfile) == false)
+            {
+                Console.WriteLine("Enter your name:");
+                _playerProfile = new PlayerProfile(Console.ReadLine(), DEFAULT_BANK);
+            }
 
             Console.WriteLine("Choose the game you want.");
 
@@ -42,8 +55,7 @@ namespace FinalTask.Main
 
             game.PlayGame();
 
-            // ---------- Save player profile ----------
-
+            SaveProfile(_playerProfile);
 
             Console.WriteLine("Good Bye!");
         }
@@ -132,6 +144,7 @@ namespace FinalTask.Main
             }
 
             Console.WriteLine(game);
+            Console.WriteLine();
         }
 
         private int GetChosenGameNumber()
@@ -189,6 +202,30 @@ namespace FinalTask.Main
                 default:
                     throw new Exception($"Game with number {number} doesn't exsit!");
             }
+        }
+
+        private bool TryLoadProfile(out PlayerProfile profile)
+        {
+            profile = null;
+
+            string playerName = _service.LoadData(PLAYER_NAME_ID);
+            string playerBank = _service.LoadData(PLAYER_BANK_ID);
+
+            int playerBankInt;
+
+            if (playerName == null || playerBank == null || int.TryParse(playerBank, out playerBankInt) == false)
+            {
+                return false;
+            }
+
+            profile = new PlayerProfile(playerName, playerBankInt);
+            return true;
+        }
+
+        private void SaveProfile(PlayerProfile profile)
+        {
+            _service.SaveData(profile.Name, PLAYER_NAME_ID);
+            _service.SaveData(profile.Bank.ToString(), PLAYER_BANK_ID);
         }
     }
 }

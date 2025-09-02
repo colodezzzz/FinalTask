@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FinalTask.SaveLoadService
 {
@@ -35,7 +31,7 @@ namespace FinalTask.SaveLoadService
                 Console.WriteLine("Can't load data! File doesn't exist!");
             }
 
-            return default;
+            return null;
         }
 
         public void SaveData(string data, string id)

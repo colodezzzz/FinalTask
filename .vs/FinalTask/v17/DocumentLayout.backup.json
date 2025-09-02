@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\VS projects\\FinalTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|E:\\VS projects\\FinalTask\\finaltask\\main\\casino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\main\\casino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|E:\\VS projects\\FinalTask\\finaltask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|e:\\vs projects\\finaltask\\finaltask\\saveloadservice\\filesystemsaveloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|E:\\VS projects\\FinalTask\\finaltask\\saveloadservice\\filesystemsaveloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\saveloadservice\\filesystemsaveloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|e:\\vs projects\\finaltask\\finaltask\\main\\casino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\main\\casino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|E:\\VS projects\\FinalTask\\finaltask\\main\\playerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\main\\playerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|E:\\VS projects\\FinalTask\\finaltask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|solutionrelative:finaltask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1145C242-0B07-41D7-B15E-CC97DD936760}|FinalTask\\FinalTask.csproj|E:\\VS projects\\FinalTask\\finaltask\\main\\igame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,13 +54,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FileSystemSaveLoadService.cs",
               "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\SaveLoadService\\FileSystemSaveLoadService.cs",
               "RelativeDocumentMoniker": "FinalTask\\SaveLoadService\\FileSystemSaveLoadService.cs",
               "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\SaveLoadService\\FileSystemSaveLoadService.cs",
               "RelativeToolTip": "FinalTask\\SaveLoadService\\FileSystemSaveLoadService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwDQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T11:16:11.949Z",
               "EditorCaption": ""
@@ -75,12 +75,11 @@
               "RelativeToolTip": "FinalTask\\Main\\IGame.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T09:18:19.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T09:18:19.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "PlayerProfile.cs",
               "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\Main\\PlayerProfile.cs",
               "RelativeDocumentMoniker": "FinalTask\\Main\\PlayerProfile.cs",
@@ -93,13 +92,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Casino.cs",
               "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\Main\\Casino.cs",
               "RelativeDocumentMoniker": "FinalTask\\Main\\Casino.cs",
               "ToolTip": "E:\\VS projects\\FinalTask\\FinalTask\\Main\\Casino.cs",
               "RelativeToolTip": "FinalTask\\Main\\Casino.cs",
-              "ViewState": "AgIAAMQAAAAAAAAAAAAswM4AAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAqwCkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-30T10:32:56.703Z",
               "EditorCaption": ""
@@ -154,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\VS projects\\FinalTask\\FinalTask\\Program.cs",
               "RelativeDocumentMoniker": "FinalTask\\Program.cs",

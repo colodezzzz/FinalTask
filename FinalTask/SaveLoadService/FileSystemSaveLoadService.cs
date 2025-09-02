@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 
 namespace FinalTask.SaveLoadService
 {
@@ -11,6 +10,11 @@ namespace FinalTask.SaveLoadService
 
         public FileSystemSaveLoadService(string path)
         {
+            if (Directory.Exists(path) == false)
+            {
+                Directory.CreateDirectory(path);
+            }
+
             _dataPath = path;
         }
 
@@ -20,15 +24,20 @@ namespace FinalTask.SaveLoadService
 
             if (File.Exists(path))
             {
-                using (StreamReader readStream = File.OpenText(path))
+                string result;
+                StreamReader readStream = File.OpenText(path);
+
+                try
                 {
-                    string result = readStream.ReadToEnd();
-                    return result;
+                    result = readStream.ReadToEnd();
                 }
-            }
-            else
-            {
-                Console.WriteLine("Can't load data! File doesn't exist!");
+                finally
+                {
+                    readStream.Close();
+                    readStream.Dispose();
+                }
+
+                return result;
             }
 
             return null;
@@ -40,12 +49,21 @@ namespace FinalTask.SaveLoadService
 
             if (File.Exists(path) == false)
             {
-                File.Create(path);
+                FileStream fileStream = File.Create(path);
+                fileStream.Close();
+                fileStream.Dispose();
             }
 
-            using (StreamWriter writeStream = File.CreateText(path))
+            StreamWriter writeStream = File.CreateText(path);
+
+            try
             {
-                writeStream.WriteLine(data);
+                writeStream.Write(data);
+            }
+            finally
+            {
+                writeStream.Close();
+                writeStream.Dispose();
             }
         }
 

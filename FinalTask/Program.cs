@@ -1,5 +1,4 @@
-﻿using FinalTask.Games;
-using System;
+﻿using FinalTask.Main;
 
 namespace FinalTask
 {
@@ -7,10 +6,8 @@ namespace FinalTask
     {
         static void Main(string[] args)
         {
-            int a = int.MaxValue;
-            int b = a * 2;
-
-            Console.WriteLine(b);
+            Casino casino = new Casino();
+            casino.StartGame();
         }
     }
 }

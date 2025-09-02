@@ -1,5 +1,5 @@
 ﻿
-namespace FinalTask.Casino
+namespace FinalTask.Main
 {
     internal interface IGame
     {

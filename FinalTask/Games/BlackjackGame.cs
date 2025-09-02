@@ -96,7 +96,7 @@ namespace FinalTask.Games
 
         private void Pause()
         {
-            Console.WriteLine("\nPree any kay to contiune.");
+            Console.WriteLine("\nPree any key to contiune.");
             Console.ReadKey();
         }
 
@@ -169,25 +169,6 @@ namespace FinalTask.Games
 
                 points += pointsFromAce;
             }
-
-            //foreach (Card card in sortedCards)
-            //{
-            //    if (card.Value == CardValue.Ace)
-            //    {
-            //        if (points + (int)CardValue.Ace > MAX_POINTS_VALUE)
-            //        {
-            //            points++;
-            //        }
-            //        else
-            //        {
-            //            points += (int)CardValue.Ace;
-            //        }
-            //    }
-            //    else
-            //    {
-            //        points += (int)card.Value;
-            //    }
-            //}
 
             return points;
         }

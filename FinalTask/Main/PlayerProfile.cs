@@ -1,4 +1,4 @@
-﻿namespace FinalTask.Casino
+﻿namespace FinalTask.Main
 {
     internal class PlayerProfile
     {
@@ -24,7 +24,7 @@
 
         public void AddMoney(int money)
         {
-            Bank += money;
+            Bank = checked(Bank + money);
         }
 
         public override string ToString()
